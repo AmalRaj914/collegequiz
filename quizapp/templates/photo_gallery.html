@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Activity Photos</title>
+</head>
+<body>
+
+<h2>Activity Photos</h2>
+
+{% for photo in photos %}
+
+<h4>{{ photo.title }}</h4>
+
+<img src="{{ photo.photo.url }}"
+     width="300">
+
+<br><br>
+
+{% endfor %}
+
+</body>
+</html>

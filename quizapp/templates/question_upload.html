@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Upload Question Bank</title>
+</head>
+
+<body>
+
+<h2>Upload Quiz Question Bank</h2>
+
+
+<form method="POST" enctype="multipart/form-data">
+
+{% csrf_token %}
+
+
+<select name="quiz">
+
+{% for q in quizzes %}
+
+<option value="{{q.id}}">
+{{q.title}}
+</option>
+
+{% endfor %}
+
+</select>
+
+
+<br><br>
+
+
+<input 
+type="file" 
+name="file"
+accept=".docx"
+required
+>
+
+
+<br><br>
+
+
+<button type="submit">
+Upload Question Bank
+</button>
+
+
+</form>
+
+
+</body>
+
+</html>

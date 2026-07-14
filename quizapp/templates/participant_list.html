@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Participant Sheet</title>
+</head>
+<body>
+
+<h2 align="center">Participant Sheet</h2>
+
+<table border="1" width="100%" cellspacing="0">
+
+<tr>
+    <th>Sl No</th>
+    <th>Register No</th>
+    <th>Student Name</th>
+    <th>Signature</th>
+</tr>
+
+{% for r in results %}
+
+<tr>
+    <td>{{ forloop.counter }}</td>
+    <td>{{ r.student.reg_no }}</td>
+    <td>{{ r.student.student_name }}</td>
+    <td style="width:250px;height:40px;"></td>
+</tr>
+
+{% endfor %}
+
+</table>
+
+</body>
+</html>

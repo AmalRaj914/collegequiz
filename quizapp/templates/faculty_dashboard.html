@@ -1,0 +1,587 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Faculty Dashboard</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+
+        body{
+            background:#f5f7fb;
+            font-family:Segoe UI;
+        }
+
+        .sidebar{
+
+            position:fixed;
+
+            width:250px;
+
+            height:100vh;
+
+            background:#1f2937;
+
+            color:white;
+
+        }
+
+        .sidebar h3{
+
+            padding:25px;
+
+            text-align:center;
+
+            border-bottom:1px solid gray;
+
+        }
+
+        .sidebar a{
+
+            display:block;
+
+            color:white;
+
+            text-decoration:none;
+
+            padding:15px 20px;
+
+            transition:.3s;
+
+        }
+
+        .sidebar a:hover{
+
+            background:#0d6efd;
+
+            padding-left:28px;
+
+        }
+
+        .content{
+
+            margin-left:260px;
+
+            padding:30px;
+
+        }
+
+        .card{
+
+            border:none;
+
+            border-radius:15px;
+
+            box-shadow:0px 5px 15px rgba(0,0,0,.1);
+
+        }
+
+        .stat-card{
+
+            text-align:center;
+
+            padding:20px;
+
+        }
+
+        .stat-card i{
+
+            font-size:40px;
+
+            margin-bottom:10px;
+
+        }
+
+        .quick-card{
+
+            transition:.3s;
+
+        }
+
+        .quick-card:hover{
+
+            transform:translateY(-5px);
+
+        }
+
+        .welcome{
+
+            background:white;
+
+            padding:20px;
+
+            border-radius:15px;
+
+            margin-bottom:20px;
+
+            box-shadow:0px 5px 15px rgba(0,0,0,.1);
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<h3>
+
+<i class="bi bi-mortarboard-fill"></i>
+
+College Quiz
+
+</h3>
+
+<a href="{% url 'faculty_dashboard' %}">
+
+<i class="bi bi-speedometer2"></i>
+
+Dashboard
+
+</a>
+
+<a href="{% url 'upload_students' %}">
+
+<i class="bi bi-people-fill"></i>
+
+Upload Students
+
+</a>
+
+<a href="{% url 'upload_question_bank' %}">
+
+<i class="bi bi-file-earmark-excel-fill"></i>
+
+Upload Question Bank
+
+</a>
+
+<a href="{% url 'publish_quiz' %}">
+
+<i class="bi bi-megaphone-fill"></i>
+
+Publish Quiz
+
+</a>
+
+<a href="{% url 'result_list' %}">
+
+<i class="bi bi-bar-chart-fill"></i>
+
+Results
+
+</a>
+
+<hr class="text-light">
+
+<a href="{% url 'logout' %}">
+Logout
+</a>
+</div>
+
+<div class="content">
+
+<div class="welcome">
+
+<h2>
+
+Welcome,
+
+<b>{{ request.user.username }}</b>
+
+</h2>
+
+<p>
+
+Faculty Dashboard
+
+</p>
+
+</div>
+
+{% if messages %}
+
+{% for message in messages %}
+
+<div class="alert alert-success">
+
+{{ message }}
+
+</div>
+
+{% endfor %}
+
+{% endif %}
+
+<div class="row">
+
+<div class="col-md-3">
+
+<div class="card stat-card">
+
+<i class="bi bi-people-fill text-primary"></i>
+
+<h5>Total Students</h5>
+
+<h2>{{ students }}</h2>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="card stat-card">
+
+<i class="bi bi-file-earmark-excel-fill text-success"></i>
+
+<h5>Question Banks</h5>
+
+<h2>{{ banks }}</h2>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="card stat-card">
+
+<i class="bi bi-ui-checks-grid text-warning"></i>
+
+<h5>Quizzes</h5>
+
+<h2>{{ quiz }}</h2>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="card stat-card">
+
+<i class="bi bi-bar-chart-fill text-danger"></i>
+
+<h5>Results</h5>
+
+<h2>{{ results }}</h2>
+
+</div>
+
+</div>
+
+</div>
+
+<br>
+
+<h3>
+
+Quick Actions
+
+</h3>
+
+<div class="row">
+
+<div class="col-md-4">
+
+<div class="card quick-card">
+
+<div class="card-body text-center">
+
+<i class="bi bi-upload text-primary" style="font-size:45px;"></i>
+
+<h4 class="mt-3">
+
+Upload Students
+
+</h4>
+
+<p>
+
+Upload student Excel file.
+
+</p>
+
+<a href="{% url 'upload_students' %}"
+
+class="btn btn-primary">
+
+Open
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card quick-card">
+
+<div class="card-body text-center">
+
+<i class="bi bi-file-earmark-excel-fill text-success"
+
+style="font-size:45px;"></i>
+
+<h4 class="mt-3">
+
+Upload Question Bank
+
+</h4>
+
+<p>
+
+Upload Excel Question Bank.
+
+</p>
+
+<a href="{% url 'upload_question_bank' %}"
+
+class="btn btn-success">
+
+Open
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card quick-card">
+
+<div class="card-body text-center">
+
+<i class="bi bi-megaphone-fill text-warning"
+
+style="font-size:45px;"></i>
+
+<h4 class="mt-3">
+
+Publish Quiz
+
+</h4>
+
+<p>
+
+Publish uploaded quizzes.
+
+</p>
+
+<a href="{% url 'publish_quiz' %}"
+
+class="btn btn-warning">
+
+Publish
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<br>
+
+<div class="card">
+
+<div class="card-header bg-primary text-white">
+
+Recent Activities
+
+</div>
+
+<div class="card-body">
+
+<ul class="list-group">
+
+<li class="list-group-item">
+
+<i class="bi bi-check-circle-fill text-success"></i>
+
+Student Excel Uploaded
+
+</li>
+
+<li class="list-group-item">
+
+<i class="bi bi-check-circle-fill text-success"></i>
+
+Question Bank Uploaded
+
+</li>
+
+<li class="list-group-item">
+
+<i class="bi bi-check-circle-fill text-success"></i>
+
+Quiz Published
+
+</li>
+
+<li class="list-group-item">
+
+<i class="bi bi-check-circle-fill text-success"></i>
+
+Students Can Attend Quiz
+
+</li>
+
+</ul>
+<br>
+
+<div class="card shadow">
+
+    <div class="card-header bg-success text-white">
+
+        <h4 class="mb-0">
+
+            <i class="bi bi-ui-checks-grid"></i>
+
+            My Quizzes
+
+        </h4>
+
+    </div>
+
+    <div class="card-body">
+
+        <table class="table table-bordered table-hover">
+
+            <thead class="table-dark">
+
+                <tr>
+
+                    <th>Quiz Title</th>
+
+                    <th>Subject</th>
+
+                    <th>Year</th>
+
+                    <th>Section</th>
+
+                    <th>Status</th>
+
+                    <th width="320">Actions</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+            {% for q in quizzes %}
+
+                <tr>
+
+                    <td>{{ q.title }}</td>
+
+                    <td>{{ q.subject_name }}</td>
+
+                    <td>{{ q.year }}</td>
+
+                    <td>{{ q.section }}</td>
+
+                    <td>
+
+                        {% if q.status %}
+
+                            <span class="badge bg-success">
+
+                                Published
+
+                            </span>
+
+                        {% else %}
+
+                            <span class="badge bg-danger">
+
+                                Draft
+
+                            </span>
+
+                        {% endif %}
+
+                    </td>
+
+                    <td>
+
+                        <a href="{% url 'upload_activity_photo' q.id %}"
+
+                           class="btn btn-warning btn-sm">
+
+                            📷 Upload Photos
+
+                        </a>
+
+                        <a href="{% url 'generate_report' %}?quiz={{ q.id }}"
+
+                           class="btn btn-success btn-sm">
+
+                            🤖 Generate Report
+
+                        </a>
+
+                    </td>
+
+                </tr>
+
+            {% empty %}
+
+                <tr>
+
+                    <td colspan="6" class="text-center">
+
+                        No Quiz Published
+
+                    </td>
+
+                </tr>
+
+            {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,1086 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Quiz Activity Report</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+body{
+
+    background:#f2f2f2;
+
+    font-family:"Times New Roman",serif;
+
+}
+
+.report{
+
+    width:90%;
+
+    margin:auto;
+
+    background:white;
+
+    padding:40px;
+
+    margin-top:20px;
+
+    margin-bottom:30px;
+
+    box-shadow:0px 0px 10px gray;
+
+}
+
+h2,h3,h4{
+
+    text-align:center;
+
+}
+
+.section{
+
+    background:#0d6efd;
+
+    color:white;
+
+    padding:10px;
+
+    margin-top:25px;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+}
+
+table{
+
+    width:100%;
+
+}
+
+th{
+
+    background:#f4f4f4;
+
+}
+
+@media print{
+
+.btn{
+
+display:none;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="report">
+
+<h2>{{ college.college_name }}</h2>
+
+<h4>Department of {{ college.department_name }}</h4>
+
+<h3>QUIZ ACTIVITY REPORT</h3>
+
+<hr>
+
+<div class="section">
+
+Quiz Details
+
+</div>
+
+<table class="table table-bordered">
+
+<tr>
+
+<th width="30%">Quiz Title</th>
+
+<td>{{ quiz.title }}</td>
+
+</tr>
+
+<tr>
+
+<th>Subject Code</th>
+
+<td>{{ quiz.subject_code }}</td>
+
+</tr>
+
+<tr>
+
+<th>Subject Name</th>
+
+<td>{{ quiz.subject_name }}</td>
+
+</tr>
+
+<tr>
+
+<th>Department</th>
+
+<td>{{ quiz.department.department_name }}</td>
+
+</tr>
+
+<tr>
+
+<th>Year</th>
+
+<td>{{ quiz.year }}</td>
+
+</tr>
+
+<tr>
+
+<th>Section</th>
+
+<td>{{ quiz.section }}</td>
+
+</tr>
+
+<tr>
+
+<th>Duration</th>
+
+<td>{{ quiz.duration }} Minutes</td>
+
+</tr>
+
+<tr>
+
+<th>Total Questions</th>
+
+<td>{{ quiz.total_questions }}</td>
+
+</tr>
+
+</table>
+
+<div class="section">
+
+Faculty Details
+
+</div>
+
+<table class="table table-bordered">
+
+<tr>
+
+<th width="30%">Faculty Name</th>
+
+<td>{{ faculty.faculty_name }}</td>
+
+</tr>
+
+<tr>
+
+<th>Designation</th>
+
+<td>{{ faculty.designation }}</td>
+
+</tr>
+
+<tr>
+
+<th>Department</th>
+
+<td>{{ faculty.department.department_name }}</td>
+
+</tr>
+
+<tr>
+
+<th>Email</th>
+
+<td>{{ faculty.email }}</td>
+
+</tr>
+
+<tr>
+
+<th>Mobile</th>
+
+<td>{{ faculty.mobile }}</td>
+
+</tr>
+
+</table>
+
+<div class="section">
+
+Quiz Statistics
+
+</div>
+
+<table class="table table-bordered">
+
+<tr>
+
+<th>Total Students Participated</th>
+
+<td>{{ total_students }}</td>
+
+</tr>
+
+<tr>
+
+<th>Highest Score</th>
+
+<td>{{ highest_score }}</td>
+
+</tr>
+
+<tr>
+
+<th>Average Percentage</th>
+
+<td>{{ average_percentage }} %</td>
+
+</tr>
+
+<tr>
+
+<th>Students Passed</th>
+
+<td>{{ passed }}</td>
+
+</tr>
+
+<tr>
+
+<th>Students Failed</th>
+
+<td>{{ failed }}</td>
+
+</tr>
+
+<tr>
+
+<th>Pass Percentage</th>
+
+<td>{{ pass_percentage }} %</td>
+
+</tr>
+
+<tr>
+
+<th>Fail Percentage</th>
+
+<td>{{ fail_percentage }} %</td>
+
+</tr>
+
+</table>
+<!-- ========================================= -->
+<!-- Student Participation -->
+<!-- ========================================= -->
+
+<div class="section">
+
+Student Participation
+
+</div>
+
+<table class="table table-bordered table-striped">
+
+<thead class="table-dark">
+
+<tr>
+
+<th width="5%">Sl.No</th>
+
+<th width="12%">Roll No</th>
+
+<th width="28%">Student Name</th>
+
+<th width="8%">Score</th>
+
+<th width="10%">Percentage</th>
+
+<th width="10%">Result</th>
+
+<th width="27%">Student Signature</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+{% for result in participants %}
+
+<tr>
+
+<td>
+
+{{ forloop.counter }}
+
+</td>
+
+<td>
+
+{{ result.student.roll_no }}
+
+</td>
+
+<td>
+
+{{ result.student.student_name }}
+
+</td>
+
+<td>
+
+{{ result.score }}
+
+</td>
+
+<td>
+
+{{ result.percentage }} %
+
+</td>
+
+<td>
+
+{% if result.percentage >= 50 %}
+
+<span class="badge bg-success">
+
+PASS
+
+</span>
+
+{% else %}
+
+<span class="badge bg-danger">
+
+FAIL
+
+</span>
+
+{% endif %}
+
+</td>
+
+<td>
+
+<br><br>
+
+__________________________
+
+</td>
+
+</tr>
+
+{% empty %}
+
+<tr>
+
+<td colspan="7" class="text-center text-danger">
+
+No Students Participated
+
+</td>
+
+</tr>
+
+{% endfor %}
+
+</tbody>
+
+</table>
+
+<!-- ========================================= -->
+<!-- Attendance Summary -->
+<!-- ========================================= -->
+
+<div class="section">
+
+Attendance Summary
+
+</div>
+
+<table class="table table-bordered">
+
+<tr>
+
+<th width="40%">
+
+Total Registered Students
+
+</th>
+
+<td>
+
+{{ registered_students }}
+
+</td>
+
+</tr>
+
+<tr>
+
+<th>
+
+Students Attended
+
+</th>
+
+<td>
+
+{{ total_students }}
+
+</td>
+
+</tr>
+
+<tr>
+
+<th>
+
+Students Absent
+
+</th>
+
+<td>
+
+{{ absent_students }}
+
+</td>
+
+</tr>
+
+<tr>
+
+<th>
+
+Attendance Percentage
+
+</th>
+
+<td>
+
+{{ attendance_percentage }} %
+
+</td>
+
+</tr>
+
+</table>
+
+<!-- ========================================= -->
+<!-- Performance Summary -->
+<!-- ========================================= -->
+
+<div class="section">
+
+Performance Analysis
+
+</div>
+
+<table class="table table-bordered">
+
+<thead class="table-light">
+
+<tr>
+
+<th>
+
+Performance Indicator
+
+</th>
+
+<th>
+
+Value
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>
+
+Highest Score
+
+</td>
+
+<td>
+
+{{ highest_score }}
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+Lowest Score
+
+</td>
+
+<td>
+
+{{ lowest_score }}
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+Average Score
+
+</td>
+
+<td>
+
+{{ average_score }}
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+Average Percentage
+
+</td>
+
+<td>
+
+{{ average_percentage }} %
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+Pass Percentage
+
+</td>
+
+<td>
+
+{{ pass_percentage }} %
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+Fail Percentage
+
+</td>
+
+<td>
+
+{{ fail_percentage }} %
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<br>
+<!-- ========================================= -->
+<!-- AI GENERATED REPORT -->
+<!-- ========================================= -->
+
+<div class="section">
+
+AI Generated Activity Report
+
+</div>
+
+<div class="card">
+
+<div class="card-body">
+
+{{ report|linebreaks }}
+
+</div>
+
+</div>
+
+<br>
+
+<!-- ========================================= -->
+<!-- ACTIVITY PHOTOGRAPHS -->
+<!-- ========================================= -->
+
+<div class="section">
+
+Activity Photographs
+
+</div>
+
+<div class="row">
+
+{% for photo in photos %}
+
+<div class="col-md-6">
+
+<div class="card mb-4 shadow">
+
+<img
+src="{{ photo.photo.url }}"
+class="card-img-top"
+style="height:350px;object-fit:cover;">
+
+<div class="card-body">
+
+<h5>
+
+{{ photo.title }}
+
+</h5>
+
+<table class="table table-bordered">
+
+<tr>
+
+<th width="30%">
+
+Latitude
+
+</th>
+
+<td>
+
+{{ photo.latitude }}
+
+</td>
+
+</tr>
+
+<tr>
+
+<th>
+
+Longitude
+
+</th>
+
+<td>
+
+{{ photo.longitude }}
+
+</td>
+
+</tr>
+
+<tr>
+
+<th>
+
+Address
+
+</th>
+
+<td>
+
+{{ photo.address }}
+
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+{% empty %}
+
+<div class="col-md-12">
+
+<div class="alert alert-warning text-center">
+
+No Activity Photos Uploaded
+
+</div>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+<br>
+
+<!-- ========================================= -->
+<!-- OBSERVATION -->
+<!-- ========================================= -->
+
+<div class="section">
+
+Faculty Observation
+
+</div>
+
+<p style="text-align:justify;line-height:32px;">
+
+The quiz activity was conducted successfully as per the academic schedule.
+Students actively participated in the quiz and demonstrated good
+understanding of the concepts taught during classroom sessions.
+The assessment helped identify students' learning levels and provided
+valuable feedback for future teaching strategies.
+
+</p>
+
+<br>
+
+<!-- ========================================= -->
+<!-- LEARNING OUTCOME -->
+<!-- ========================================= -->
+
+<div class="section">
+
+Learning Outcome
+
+</div>
+
+<p style="text-align:justify;line-height:32px;">
+
+The activity enhanced students' conceptual understanding,
+logical thinking, analytical ability and subject knowledge.
+The online quiz encouraged active participation and immediate
+performance evaluation.
+
+</p>
+
+<br>
+
+<!-- ========================================= -->
+<!-- CONCLUSION -->
+<!-- ========================================= -->
+
+<div class="section">
+
+Conclusion
+
+</div>
+
+<p style="text-align:justify;line-height:32px;">
+
+The Quiz Activity achieved its intended objectives successfully.
+The students showed keen interest and actively participated in
+the assessment process.
+The overall performance indicates satisfactory understanding
+of the subject and identifies areas requiring further improvement.
+
+</p>
+
+<br>
+<!-- ========================================= -->
+<!-- RECOMMENDATIONS -->
+<!-- ========================================= -->
+
+<div class="section">
+
+Recommendations
+
+</div>
+
+<ul style="line-height:35px;font-size:18px;">
+
+<li>
+
+Conduct more quiz activities to improve analytical thinking.
+
+</li>
+
+<li>
+
+Provide additional practice sessions for low-performing students.
+
+</li>
+
+<li>
+
+Encourage peer learning and collaborative discussions.
+
+</li>
+
+<li>
+
+Introduce AI-based assessment and feedback mechanisms.
+
+</li>
+
+<li>
+
+Strengthen concept-based learning using real-world examples.
+
+</li>
+
+</ul>
+
+<br>
+
+<!-- ========================================= -->
+<!-- REPORT INFORMATION -->
+<!-- ========================================= -->
+
+<div class="section">
+
+Report Information
+
+</div>
+
+<table class="table table-bordered">
+
+<tr>
+
+<th width="35%">
+
+Report Generated On
+
+</th>
+
+<td>
+
+{% now "d-m-Y h:i A" %}
+
+</td>
+
+</tr>
+
+<tr>
+
+<th>
+
+Generated By
+
+</th>
+
+<td>
+
+AI Quiz Report Generator
+
+</td>
+
+</tr>
+
+<tr>
+
+<th>
+
+Faculty Coordinator
+
+</th>
+
+<td>
+
+{{ faculty.faculty_name }}
+
+</td>
+
+</tr>
+
+<tr>
+
+<th>
+
+Department
+
+</th>
+
+<td>
+
+{{ faculty.department.department_name }}
+
+</td>
+
+</tr>
+
+<tr>
+
+<th>
+
+Academic Year
+
+</th>
+
+<td>
+
+2026-2027
+
+</td>
+
+</tr>
+
+</table>
+
+<br>
+
+<!-- ========================================= -->
+<!-- SIGNATURES -->
+<!-- ========================================= -->
+
+<div class="section">
+
+Approval
+
+</div>
+
+<div class="row mt-5">
+
+<div class="col-md-4 text-center">
+
+<br><br><br>
+
+__________________________
+
+<br>
+
+<b>Faculty Coordinator</b>
+
+<br>
+
+{{ faculty.faculty_name }}
+
+</div>
+
+<div class="col-md-4 text-center">
+
+<br><br><br>
+
+__________________________
+
+<br>
+
+<b>Head of Department</b>
+
+<br>
+
+Department of {{ faculty.department.department_name }}
+
+</div>
+
+<div class="col-md-4 text-center">
+
+<br><br><br>
+
+__________________________
+
+<br>
+
+<b>Principal</b>
+
+</div>
+
+</div>
+
+<br><br>
+
+<!-- ========================================= -->
+<!-- COLLEGE SEAL -->
+<!-- ========================================= -->
+
+<div class="row">
+
+<div class="col-md-6">
+
+</div>
+
+<div class="col-md-6 text-center">
+
+<div style="border:2px dashed #999;height:120px;padding-top:40px;">
+
+Official College Seal
+
+</div>
+
+</div>
+
+</div>
+
+<br><br>
+
+<!-- ========================================= -->
+<!-- FOOTER -->
+<!-- ========================================= -->
+
+<hr>
+
+<div class="text-center text-muted">
+
+Generated Automatically by
+
+<b>
+
+AI Powered College Quiz Management System
+
+</b>
+
+<br>
+
+Department of Computer Applications
+
+</div>
+
+<br>
+
+<div class="text-center">
+
+<button>
+
+<a href="{% url 'download_pdf_report' quiz.id %}"
+
+class="btn btn-success">
+
+Download PDF Report
+
+</a>
+
+</button>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

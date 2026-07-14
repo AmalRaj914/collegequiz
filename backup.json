@@ -1,0 +1,5680 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2026-07-10T07:36:26.008Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "Amal",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2026-07-10T07:37:04.967Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "BCA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2026-07-10T07:37:39.754Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Amal Raj",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2026-07-10T10:11:09.923Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "DBMS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2026-07-10T12:29:29.107Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "47",
+        "object_repr": "Jayashree",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2026-07-10T12:31:00.557Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Jayashree",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2026-07-10T12:40:54.267Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Data Structure And Algorithm",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2026-07-11T06:47:26.114Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "98",
+        "object_repr": "Melbin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2026-07-11T06:47:57.242Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "CS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2026-07-11T06:49:50.488Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Melbin Julilat",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2026-07-11T06:52:42.886Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Java",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2026-07-13T06:20:17.138Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "47",
+        "object_repr": "Jayashree",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2026-07-13T06:49:47.840Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "Amal",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2026-07-13T07:42:54.998Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "DON BOSCO COLLEGE (CO-ED)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add college info",
+        "content_type": 7,
+        "codename": "add_collegeinfo"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change college info",
+        "content_type": 7,
+        "codename": "change_collegeinfo"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete college info",
+        "content_type": 7,
+        "codename": "delete_collegeinfo"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view college info",
+        "content_type": 7,
+        "codename": "view_collegeinfo"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add department",
+        "content_type": 8,
+        "codename": "add_department"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change department",
+        "content_type": 8,
+        "codename": "change_department"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete department",
+        "content_type": 8,
+        "codename": "delete_department"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view department",
+        "content_type": 8,
+        "codename": "view_department"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add faculty",
+        "content_type": 9,
+        "codename": "add_faculty"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change faculty",
+        "content_type": 9,
+        "codename": "change_faculty"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete faculty",
+        "content_type": 9,
+        "codename": "delete_faculty"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view faculty",
+        "content_type": 9,
+        "codename": "view_faculty"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add quiz",
+        "content_type": 10,
+        "codename": "add_quiz"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change quiz",
+        "content_type": 10,
+        "codename": "change_quiz"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete quiz",
+        "content_type": 10,
+        "codename": "delete_quiz"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view quiz",
+        "content_type": 10,
+        "codename": "view_quiz"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add question bank",
+        "content_type": 11,
+        "codename": "add_questionbank"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change question bank",
+        "content_type": 11,
+        "codename": "change_questionbank"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete question bank",
+        "content_type": 11,
+        "codename": "delete_questionbank"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view question bank",
+        "content_type": 11,
+        "codename": "view_questionbank"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add question",
+        "content_type": 12,
+        "codename": "add_question"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change question",
+        "content_type": 12,
+        "codename": "change_question"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete question",
+        "content_type": 12,
+        "codename": "delete_question"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view question",
+        "content_type": 12,
+        "codename": "view_question"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add activity report",
+        "content_type": 13,
+        "codename": "add_activityreport"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change activity report",
+        "content_type": 13,
+        "codename": "change_activityreport"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete activity report",
+        "content_type": 13,
+        "codename": "delete_activityreport"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view activity report",
+        "content_type": 13,
+        "codename": "view_activityreport"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add activity photo",
+        "content_type": 14,
+        "codename": "add_activityphoto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change activity photo",
+        "content_type": 14,
+        "codename": "change_activityphoto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete activity photo",
+        "content_type": 14,
+        "codename": "delete_activityphoto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view activity photo",
+        "content_type": 14,
+        "codename": "view_activityphoto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add student",
+        "content_type": 15,
+        "codename": "add_student"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change student",
+        "content_type": 15,
+        "codename": "change_student"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete student",
+        "content_type": 15,
+        "codename": "delete_student"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view student",
+        "content_type": 15,
+        "codename": "view_student"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add attendance",
+        "content_type": 16,
+        "codename": "add_attendance"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change attendance",
+        "content_type": 16,
+        "codename": "change_attendance"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete attendance",
+        "content_type": 16,
+        "codename": "delete_attendance"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view attendance",
+        "content_type": 16,
+        "codename": "view_attendance"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add student excel",
+        "content_type": 17,
+        "codename": "add_studentexcel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change student excel",
+        "content_type": 17,
+        "codename": "change_studentexcel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete student excel",
+        "content_type": 17,
+        "codename": "delete_studentexcel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view student excel",
+        "content_type": 17,
+        "codename": "view_studentexcel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can add result",
+        "content_type": 18,
+        "codename": "add_result"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+        "name": "Can change result",
+        "content_type": 18,
+        "codename": "change_result"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+        "name": "Can delete result",
+        "content_type": 18,
+        "codename": "delete_result"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+        "name": "Can view result",
+        "content_type": 18,
+        "codename": "view_result"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$4ZywBgdRAlV9tKXC5Z0QSA$0oMIgOyqW2/EBPfKRnkuNyzx3+7sKnuPbPjokqGO7oM=",
+        "last_login": "2026-07-13T12:57:27.628Z",
+        "is_superuser": true,
+        "username": "amalraj@dbcyelagiri.edu.in",
+        "first_name": "",
+        "last_name": "",
+        "email": "amalraj@dbcyelagiri.edu.in",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-07-10T07:33:21.198Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$hXrURYCZFqDtjij9rOvTMi$MipPheA4iP/EpGU9UJMFA2EykDS+qYsDzfDkG8cwjW8=",
+        "last_login": "2026-07-13T13:24:07.355Z",
+        "is_superuser": false,
+        "username": "Amal",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T07:36:23.701Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$2FBaKzyKFxbAZ7kOxZakgp$RyE++wYZ7FVZS6aW7QO/Byw0NyBieYggJdQ0IjnEOlA=",
+        "last_login": "2026-07-10T10:43:35.361Z",
+        "is_superuser": false,
+        "username": "B24251",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:25.573Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$I6DJGEtDzyJS3fnF6KKyb6$nlrndPTOwAVZ3fFztXL96qe1xe6JvpXyi8V3alqEPCE=",
+        "last_login": "2026-07-10T11:57:48.627Z",
+        "is_superuser": false,
+        "username": "B24252",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:27.147Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$ksPttP3KQ4yW1Z1dy6G4gr$5jr7CYH37qwHmYgu0vnDQgckJiDB49oqymI5lVve7ZM=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24253",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:28.414Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$QfIgs0XooTa2AbCpRAqnBi$6INxS3C09aQgE+cdZGV5dMsSRVwxOWXHMnEB3Jd/cW8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24254",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:29.382Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$QIx1lKGNf9ChOYYDodMHwJ$BTN+PFcMFzMqvd/Br8ueVDEdodqZIjhhe07DfVNlgso=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24255",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:30.307Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$8YIQRon43OzqHdpPTwqX58$iOUbEHobQD/NaMyURraGnbtmEEFQUGZTo0ltrABulog=",
+        "last_login": "2026-07-13T10:55:53.671Z",
+        "is_superuser": false,
+        "username": "B24256",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:31.439Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 9,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$70V4N3zHhMhD1DgSu8Bkib$xgghKLK8DFIVpNAvI6jm1aAI/Ihqnd1+EYe/tY0pWBM=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24257",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:31.904Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 10,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$fDqscyjunh9OudFZu3sciX$KtKZD6xZB1gSbl0lnhQUxGGMybLOZOhSu9BXinHbcu0=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24258",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:33.391Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 11,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$vPRwRf80FkvoApFh0oAXCQ$fGU3xKiUJIPRrK3SODFBrPsTXzB9YugRFydydyjTXL4=",
+        "last_login": "2026-07-10T12:19:28.353Z",
+        "is_superuser": false,
+        "username": "B24259",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:33.732Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 12,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$QYcEFr9rs6q2WEmaw9dH2k$SCe2BvTIf6HVBJGV/wFmVAKltg2ojSMrqfMknD+uZ6w=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24260",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:35.136Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 13,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$NXV09PCiMvlWGhoQp1NOtz$OzWMqFJPSSv7iLZn3wgDcB50fF8+C22dFNCPvST86E4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24261",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:35.339Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 14,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$ZC92VyMgKJxrOpddmmqd41$d/JPTzIHsuTRj6OgOozQLaTVnSmTo0lz6c8SyOjmCC8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24262",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:36.407Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 15,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$xmJFoBi3WXIYP1bWfRdBGY$qc3XdfO1CKa82l8ufTW5ejL8k240cCTkfBhcdL8jO9A=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24263",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:36.552Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 16,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$AFou1CaNzY6JwpGYIugWjE$Y0o98e1XsvIaCjlVkHwMNM37s9TxQPI8R2Wgsr7UqPg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24264",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:37.568Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 17,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$jzK6dOSHE0OWZfm8Jey7y7$u0OLAozT5n+ZJhXQdvp9m4h40DsJvpDEaZ7OA27EZG4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24265",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:37.713Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 18,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$z3Iw31bOitPhKysq8iNaNb$lFMoe7PVBuji9dsh8eokmB9Fi4x6by3HVMHX0fh6snY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24266",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:39.030Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 19,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$cRV3M70DAzBanMtJ8PjsDT$Dc192m9L9YGmoS0dTqZ3eTe9q3Fi8RsBSawJz807BtQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24267",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:39.369Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 20,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$humHfi2BywkPxBcrLGBNZ5$KC4oznJ9ZKY+7VaKJuR/3obIX7x2Qjor4S0JOPLZVgk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24268",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:40.732Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 21,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$rvzRofIEyQuQ4Zw9dlAizk$nGxmP3zz55fmE/xTO36/e4cCq3rcbMD68G3HSASO8kY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24270",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:41.197Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 22,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$lAxpyc9abelihMFZDIFICz$pYnccnNK9hy+66PpVZN1u7MVrDhQ+agxNQeLtSibiDY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24271",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:42.859Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 23,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$ytAalCsqRPU9s6uZLO1hkI$ucyWd/jASXYs4fcOWvrcm3ZXtVxzqdR9i1mGEabpRJs=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24272",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:43.135Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 24,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$ODoAXH53w0PWYYDF1xkfys$REG8B+LiBM+Vy0I1N3DFIGYfxPLk0267DPjYAGOR/t8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24273",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:44.029Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 25,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$0e7VNnNKV6VjzHz0s2XYeP$4772q/Hvr3vsEup6upEMuaODTWWlCWNJBfl2B4lPFoE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24274",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:44.266Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 26,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$j6dtVA6SQcKAmFn3l0lTeG$c1mNXJHk9OxW0JPg3JJU+zZ0gke2GH1Nd+7u9RSpNmM=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24275",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:45.847Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 27,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$08IdWDG5jmtoTNTdhOPOHH$SKh1t5gYbyInNOyUI/QFpqfr/7sDetT0KwbeBMzrvg4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24276",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:46.088Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 28,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$6SngY76AcWi3VdjDNGmLkh$6HbezrqFp0DkJOA/PbYv6MMVeMY3gYvtluIOJMlDK7U=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24278",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:47.557Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 29,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$t9g9LFMs4iq13Tm7fJp8kp$MrNZTL+ah8TyCHaJk4z1O94Js/CLGXqyM7OjOJrcxeg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24279",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:47.792Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 30,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$S1jKNDVZvtUQAL8sGdnmdR$W5Gfe5y5L7uhn34ELNcaJCgQ+ksEVNQWGbLfuKO0CYo=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24280",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:49.358Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 31,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$PIuvuiXI0h9SLDMb5PbIQa$w26cdN6hdjAw8hmzbuiFuzunUOpxCnoczUnhlUhGS4I=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24281",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:49.569Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 32,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$ZtsjFvlOUDbmPFGBrjQx4O$ALYIgQhis9p0XXUgxbugH/svilpd1MDyWD7DJSlA9FY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24282",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:50.681Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 33,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$x3MfxxEbYo4GPiJsNH9W20$c/Ub5rqwYGGRrCDFmOUYxjVWtMkUU7K0G1aVF/0X7sA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24285",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:50.785Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 34,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$TgOHOiG4SX27ckK6InG32R$80qvRXH31B3FuykWgzLMC2NM3Zht3ZqOvS6T4NA3VS4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24286",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:51.893Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 35,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$4hZO8orJERclUSVB3xgzfQ$kSYbLvbRuIw16nJuuvpfWZCAGs3SDvot6PXxRZ4s1x4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24287",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:52.085Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 36,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$2RCjbDKkxMYbko0kJO8a2m$yHa+xXZbcmqdeWmV5vuXnI6njAre0ntbDqoD3FdzZVA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24288",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:53.460Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 37,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$K3JAslbt5Y2OJgfcjUsk9p$PgjlJgWBnosNRc4hqAxJEUGXDkXu3+NjuopmifJKQWk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24289",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:53.669Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 38,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$blitSy6QiZ8I7YNHiPmxwC$hvvbyFRrWC3zYlYTVwvRuLFZCACk2rFyIqmNn7jHst4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24290",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:55.531Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 39,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$pn08e9PywghizLuAG65yOB$1MU+UvNKJNGvChpDXdIuk2B01eSvZqKB2RyxPQIsUoo=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24291",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:55.539Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 40,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$03VznK71pdYhv5nTadRFQW$cGh83PYRQqMaf3fYf3v1eOB/OY//u2m7ka458M+T4js=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24292",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:57.223Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 41,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$DErNbeXQrXY7cmFNXGGvNM$ECYyCj/ISCKiWyEtugSqQPIxeITGpQXBHW7l9G6KMTs=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24293",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:57.393Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 42,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$zi6XhWTHBQkqcydDf9Jp8s$OuDfJDqlR7kfxyBo7FoNAffVIMrOJd95iOpMneeFlGs=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24294",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:58.373Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 43,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$K1yRAO9Mb1fxTUzZJaNimR$lL/gCUQdWkf4oLQISnts2CWSXbWxpIMFpbvCAGEW1Sk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24295",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:56:58.498Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 44,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$7tNXCO1lVvNWdIGwFYUqT0$FfF0g86cQkmJgQ/RevlEArIyERPJ7+9BBTxy86CFbHQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24296",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:57:00.014Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 45,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$yl72w1E16GfId188ZxmdQ6$VdniSk+DyPS3LTi5F4BbuKHkcJQCTi8kPe0oJxAx8dU=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24297",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:57:00.281Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 46,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$bJz4V66OL8wEW7FMrWxoZ8$PNqTxpzojuD4B/cuLL/Sin1vGnkzUvR2yx/8hBpWKmw=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B24298",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T09:57:01.801Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 47,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$Irxur5HWfRx20sRWT42ujI$AJOJksaniVR8eom8PzKbguQZtTRNMVFKdDSdhIFg3c0=",
+        "last_login": "2026-07-13T06:46:01.208Z",
+        "is_superuser": false,
+        "username": "Jayashree",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:29:27.759Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 48,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$NyWhR3CRwLiO1YbOSJBzXM$xP/JG8U1cB+3VtA/5USKky7yLJlZuxAeOTnxOTP2sq8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25251",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:00.979Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 49,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$V2e3vIOxXSb7WCnA92Ucta$e58Dnt3hi50ncBAM3GODhFoy6oLfY+kMSp48ul18fTI=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25252",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:02.703Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 50,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$7fMCyNGMFfgCvG25mYuSbv$ip1bU4aGyHV25DJ8S4toyqAJCFedsYNa8rsyLh6qAZs=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25253",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:04.460Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 51,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$zkWh0PbVcECHKrfQIYWj7j$hrhh0lb/HhfntJBEfktGSHIm36By+PCt3wUAP/Z6pq0=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25254",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:06.105Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 52,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$tRh6ItDDol8pad7FnwiTOO$YbXL3Ib9HmtfNdeYw3flsTs32t5wmEadCVqHfiCAp7c=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25255",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:07.564Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 53,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$g2CQ1t6I3ni4kWH2CwvHCW$ygRbQPhZ/GhfnQT9w9VTgSHq5wMd4Ll1LXxchJE6oK4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25256",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:09.411Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 54,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$pzDfuhVQMNAvaNfiLBt1mj$+uK6mxqM88bRuYlXzzIS+Ih1v0pvgYRtp/3aOFkFfKA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25257",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:10.852Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 55,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$G4oGHQfFh68JcMujl09IwW$JMg93MTwOicofrmBWo5FSZ3NtJtvBjQwBBOAr9iuuZ4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25258",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:12.064Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 56,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$sRSFyIqgNKQLjvnbuk9wSa$u8OTFUvkVZlW8J1/yF615IuuzZfLkWl+qaK8AEmuhhY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25259",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:13.025Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 57,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$NeNCNdOZ53CIlLhIdkOMLp$TFS1aAo1K5kf3n7pkQ65jTT/HvcJ9qE1OE6z11znaqs=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25260",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:14.201Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 58,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$PM30ngY5gkSeJ3SOcF4V6b$bfiRkl1J9X5zg/X6UyTRmq2DRO/ZzpFW05ErdzIEbjg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25261",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:15.728Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 59,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$tQUp40czbKo3dx8mudAUSB$eQrKJgmGyrqXXP9ZyS1Otp8eTCw5xQO6qEb4YlaA77o=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25262",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:17.136Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 60,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$eDQqIDVMGBUFh6t3r1Y2DO$3xPKHPeHd+tS2/x24NBiLmZ9i4k5LzIzlT9xzsfpI04=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25263",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:18.297Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 61,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$zBLBriHmgUdcxtvMgEsm5t$/u8Mn7CK7K8SELYeXt4hAdCkDREBHwBgnCADxmJ7FSQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25264",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:19.396Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 62,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$WMyJyJ5mNVOtV9A8UQQERi$UnqXR9lA4u4sXsay/y2XhKtzsagzr/GFcttBZ6eAIzo=",
+        "last_login": "2026-07-10T12:44:51.113Z",
+        "is_superuser": false,
+        "username": "B25265",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:20.847Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 63,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$O2TFeOdEvIvx0DHSWswhG0$N413ld+7Q4MdgDh/2P5KaAHftKdPnYMjlRMircdtgvE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25266",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:22.382Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 64,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$PDBWiKv78GCVGFsW1bsBqs$SCkw8KVKu6XGlqhzPtOFhuHUrVKRVgO/RIwhDdX9BMQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25267",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:23.741Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 65,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$xEg2h0BqV8GyJ7UY9d9tjX$Ng/XiTQC3WTnHiv/gYhOXawcf0UNKloV3p00CLL9lsY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25268",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:25.143Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 66,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$JbjVDHerWnLloKwgszOZhP$SHmBDN+xNssXj+yrzpQ5jTBKHQXWzUUkfjMaR9ChNwk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25269",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:26.236Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 67,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$i7cyPa6UhKzfAvizoLxWXf$L9rGuDQrslLVpBMC1ZXdgDzoeHlKsNSg69FkX7YMYLQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25270",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:27.921Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 68,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$ytETdxgaf3eWupwXf8D33Y$NnlXvkYdqPJY/d5AhG6ALgfXtxT4mWg4nl5+0E4vRT8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25272",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:29.433Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 69,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$qbQATWZFIHzynElRDXQ7yW$q7oN7dB/WVVPt7H+tzOWPmNhcJrrA5G34uormDgN0/Y=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25273",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:31.011Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 70,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$axxZeYGgERWtHpPgRo7bTB$S0oI/83+PjyHgqaGmA4r5ml0AnJJT44Lt5lddxweL6U=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25274",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:32.248Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 71,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$ZK0YpAqUWBKMIgEZmzgr5S$pgRfYXKlv2yX4mAcbkGcL7sYhPjaLTwMO9Bvy7cfxx4=",
+        "last_login": "2026-07-11T06:58:46.080Z",
+        "is_superuser": false,
+        "username": "B25275",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:33.644Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 72,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$NULqn8Zumccaoj2eNJZjd2$ALnqdlG8OQ7CSY/aeoduYJ8+TYzsEX+xe0rakaJFHgA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25276",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:35.115Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 73,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$pdHMXK96CRrkfZHKbUX4tA$LR29RZ3fdRh1h1ZUdCdte6LJLOSnqtuZzHZxIw/Lz5Q=",
+        "last_login": "2026-07-11T07:00:08.511Z",
+        "is_superuser": false,
+        "username": "B25277",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:36.655Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 74,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$1XirI0wOoJSVXJDHEpdndu$eDMnL/FyoPPyNYmAqbnyVZwZAzGHtiCMubKvki9EYm8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25278",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:38.169Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 75,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$ZO2BkOfW2rjuBd6GO0Uidf$cnVbO9ujtF/cxXXxy0pLWf1yUqJ3Hg3wo2sB3on8xsg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25279",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:39.935Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 76,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$flxDt9e7IYPh60dNsOzqFk$otNVj2OufBG1/8uUDX4SWwgSnAln1zOGES6Muo/qXEI=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25280",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:41.416Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 77,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$JLTERc1uMYU2RXUtT1iJnI$YWiX+20LX5GcNpdPDrYteMg53D72Hq/Lq2RtdKdyw+4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25281",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:43.384Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 78,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$7pOtFXsyLjll5Pnko7Jzap$w0l7Q/rH7NG00aisTcl+LEbek99FJDYOtoSFIvi4enw=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25282",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:44.829Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 79,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$YvnirvjMeCJZTh9YUzaaHE$C/oBndPS58ASNTtB0nJ/hHIbRTaydGvnGH2Qh/tkjTE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25283",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:45.919Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 80,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$zzKcureW9i3f64U3IhEvzY$g4r8LIqc2+oosk0Wn6hxGbzMPsuxYRyZX6GmIGybBP8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25284",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:47.246Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 81,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$rpAI2LPa0q3bedX9KN0Awo$chqGh/EV/QYysa9d8aZfeny/Ej7WW0TfkeJmViIFYfs=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25285",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:48.889Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 82,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$TFUrGefyka1Cp9tSnxBgO5$8oUZ2ufSR179TIB1ebjNNYTtHU+0GwsYM+GdQra0PYk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25286",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:50.515Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 83,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$6XJquV0LUKkASD9gJfQwD0$WVdTuJMoF2lBCopjJwfs62oUwS/lgP//vZ451brbDfE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25287",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:51.855Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 84,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$Wh6BU2fIDPvYDkvba8a1E5$TnkH8XlXqU1Py9jK0g8CMUVPYaSNZVpkrXYq4jxGmbE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25288",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:52.849Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 85,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$OERHzyavxTwLXfrpnqJDjd$qHgRpsX+L5sPX2OdIss6+8nfym6jxmimS4bo+KPLhHI=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25289",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:54.004Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 86,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$8lYeXsPojHw2RxHM50JrjU$4vqZmgkacziNzrxH+xDTtQeyVj3M7aQv4ybU6vjHMjs=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25290",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:55.425Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 87,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$fwyDFjrmpoDiKh1WhgJZMg$TL02PT7jL1f67mgfUdoZlZYc7whn/jY7sJXIOIZv4Nk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25291",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:56.884Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 88,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$QkNDB6UyAZJujfQKH5ypOG$fvlwjpM/NWuMZwpg+ElbNBzB978HydLmMG3tRoEpbs4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25292",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:58.177Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 89,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$JMPWO0lmZ60gimNPvr5xxw$SW/onuhqr8nHfPCyM83AdRmLdaZHHjkKBqNYgCUeAww=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25293",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:33:59.168Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 90,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$4GExVrDNKlI9owrXaG2U5C$97NDmDVSpQHwuPRC08o8LXiJAXx0wN5B2w4SxrtPO/M=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25294",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:34:00.672Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 91,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$uddfPiJzHPglGcGRYq7bOp$7uUmgGPumIA9bGgoUyQ/ij/CeVM00ZIqZuIr+seOBAQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25295",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:34:02.463Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 92,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$wtTjhHjyNeHVWEa1hoyuMv$NcKhQa8LC3SsGNf+5Ik0nxgAx5k2cWwXoLMILBckG0I=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25296",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:34:04.334Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 93,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$R9n6LP9KsBZwkc1zaOKFVd$3zuP32JQCsb/CUWWpG50FhbpCXdUhtAS0k7Y96FyIAg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25297",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:34:05.809Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 94,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$jcwhVjTm8h0EPsAdbB5Dr4$lHdbPlvFLniDOa8p+09BJ9a7aSxRh6ogkE7yu/TfS0E=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25298",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:34:06.998Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 95,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$z0cDwYmDkHOq0LAl8cCBOV$nt+iNlmbTR1T9hJPZBbIEB3LZ21d3AIBRXnH9js5A6U=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B25299",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:34:08.521Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 96,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$Osued55roFa7S7BGJlOHWV$nXtjYdHcP1GYXNLQYLvcLG8KaHPXyZeLP7J0GbjMM2w=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B252A0",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:34:10.039Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 97,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$GOza4SwNDy9kubfNc27K5v$JeHD1xcKuzaasQt1t1Y+rrTFcfZPhQbj8kofmDJ/nns=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "B252A1",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T12:34:12.908Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 98,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$nXWV9tZwo60Z2cRZxrLYbE$xndfyRHISvKgVPjFlDP022sDSaaKLN7mxHxf6O7FgbU=",
+        "last_login": "2026-07-11T07:04:36.809Z",
+        "is_superuser": false,
+        "username": "Melbin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-11T06:47:24.598Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "quizapp",
+        "model": "collegeinfo"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "quizapp",
+        "model": "department"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "quizapp",
+        "model": "faculty"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "quizapp",
+        "model": "quiz"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "quizapp",
+        "model": "questionbank"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "quizapp",
+        "model": "question"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "quizapp",
+        "model": "activityreport"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "quizapp",
+        "model": "activityphoto"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "quizapp",
+        "model": "student"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "quizapp",
+        "model": "attendance"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "quizapp",
+        "model": "studentexcel"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+        "app_label": "quizapp",
+        "model": "result"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "tpscx36h5y0u0i3tbc1cws1ec6omlklt",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCBAaYu3fcMZBhAqoYmpV0Z765NutDtf-_9lwi0rTVsPS9hSuIitDj9bpH4kdsO0p3abZY8t3WZotwVedAuxznl5_Vw_w4q9fqtrc4FomHrEmFUSkdWFjyYIbMvgIhEKbE5IxRftCZAVo4G9IYdliLeH-snOBQ:1wjGdj:h3mmhH0dpoJ55x2zMGAN7-Iaa2G-A9g4s4yRcMV8SPA",
+        "expire_date": "2026-07-27T13:24:07.383Z"
+    }
+},
+{
+    "model": "quizapp.collegeinfo",
+    "pk": 1,
+    "fields": {
+        "college_name": "DON BOSCO COLLEGE (CO-ED)",
+        "department_name": "BCA",
+        "faculty_name": "Amal Raj",
+        "faculty_designation": "Asst.Professor",
+        "hod_name": "Mr.Baskar",
+        "principal_name": "Dr.L.Ravi",
+        "academic_year": "2026-27"
+    }
+},
+{
+    "model": "quizapp.department",
+    "pk": 1,
+    "fields": {
+        "department_code": "2",
+        "department_name": "BCA"
+    }
+},
+{
+    "model": "quizapp.department",
+    "pk": 2,
+    "fields": {
+        "department_code": "1",
+        "department_name": "CS"
+    }
+},
+{
+    "model": "quizapp.faculty",
+    "pk": 1,
+    "fields": {
+        "user": 2,
+        "faculty_name": "Amal Raj",
+        "email": "ajithamal914@gmail.com",
+        "department": 1,
+        "designation": "Asst.Professor",
+        "mobile": "9363549572",
+        "is_active": true,
+        "created_date": "2026-07-10T07:37:39.750Z"
+    }
+},
+{
+    "model": "quizapp.faculty",
+    "pk": 2,
+    "fields": {
+        "user": 47,
+        "faculty_name": "Jayashree",
+        "email": "jayashree@dbcyelagiri.edu.in",
+        "department": 1,
+        "designation": "Asst.Professor",
+        "mobile": "8778918140",
+        "is_active": true,
+        "created_date": "2026-07-10T12:31:00.556Z"
+    }
+},
+{
+    "model": "quizapp.faculty",
+    "pk": 3,
+    "fields": {
+        "user": 98,
+        "faculty_name": "Melbin Julilat",
+        "email": "melbinjuliat@gmail.com",
+        "department": 1,
+        "designation": "Asst.Professor",
+        "mobile": "9787926729",
+        "is_active": true,
+        "created_date": "2026-07-11T06:49:50.483Z"
+    }
+},
+{
+    "model": "quizapp.quiz",
+    "pk": 1,
+    "fields": {
+        "faculty": 1,
+        "title": "DBMS",
+        "subject_code": "23UCA51",
+        "subject_name": "DataBase Mangement System",
+        "department": 1,
+        "year": 3,
+        "section": "B",
+        "duration": 20,
+        "total_questions": 50,
+        "status": true,
+        "created_date": "2026-07-10T10:11:09.904Z",
+        "ai_report": ""
+    }
+},
+{
+    "model": "quizapp.quiz",
+    "pk": 2,
+    "fields": {
+        "faculty": 2,
+        "title": "Data Structure And Algorithm",
+        "subject_code": "23UCA31",
+        "subject_name": "Data Structure And Algorithm",
+        "department": 1,
+        "year": 2,
+        "section": "B",
+        "duration": 20,
+        "total_questions": 20,
+        "status": true,
+        "created_date": "2026-07-10T12:40:54.264Z",
+        "ai_report": ""
+    }
+},
+{
+    "model": "quizapp.quiz",
+    "pk": 3,
+    "fields": {
+        "faculty": 3,
+        "title": "Java",
+        "subject_code": "23UCA31",
+        "subject_name": "Java Programing",
+        "department": 1,
+        "year": 2,
+        "section": "B",
+        "duration": 20,
+        "total_questions": 20,
+        "status": true,
+        "created_date": "2026-07-11T06:52:42.880Z",
+        "ai_report": ""
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 1,
+    "fields": {
+        "quiz": 1,
+        "question": "SQL stands for?",
+        "option1": "Structured Language",
+        "option2": "Structured Query Language",
+        "option3": "Simple Query Language",
+        "option4": "Server Query Language",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:00.967Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 2,
+    "fields": {
+        "quiz": 1,
+        "question": "What does DBMS stand for?",
+        "option1": "Data Backup Management System",
+        "option2": "Database Management System",
+        "option3": "Data Base Machine System",
+        "option4": "Database Memory System",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:00.976Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 3,
+    "fields": {
+        "quiz": 1,
+        "question": "Which language is used to retrieve data from a database?",
+        "option1": "DDL",
+        "option2": "DML",
+        "option3": "DCL",
+        "option4": "TCL",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:00.978Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 4,
+    "fields": {
+        "quiz": 1,
+        "question": "Which SQL command is used to retrieve data?",
+        "option1": "INSERT",
+        "option2": "SELECT",
+        "option3": "UPDATE",
+        "option4": "DELETE",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:00.980Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 5,
+    "fields": {
+        "quiz": 1,
+        "question": "Which key uniquely identifies a record in a table?",
+        "option1": "Foreign Key",
+        "option2": "Candidate Key",
+        "option3": "Primary Key",
+        "option4": "Composite Key",
+        "correct_answer": "C",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:00.983Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 6,
+    "fields": {
+        "quiz": 1,
+        "question": "Which SQL command is used to add a new record?",
+        "option1": "INSERT",
+        "option2": "UPDATE",
+        "option3": "MODIFY",
+        "option4": "CREATE",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:00.985Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 7,
+    "fields": {
+        "quiz": 1,
+        "question": "Which SQL command is used to remove a table?",
+        "option1": "DELETE",
+        "option2": "DROP",
+        "option3": "REMOVE",
+        "option4": "ERASE",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:00.987Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 8,
+    "fields": {
+        "quiz": 1,
+        "question": "Which normal form removes partial dependency?",
+        "option1": "1NF",
+        "option2": "2NF",
+        "option3": "3NF",
+        "option4": "BCNF",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:00.988Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 9,
+    "fields": {
+        "quiz": 1,
+        "question": "Which clause is used to filter rows in SQL?",
+        "option1": "ORDER BY",
+        "option2": "GROUP BY",
+        "option3": "WHERE",
+        "option4": "HAVING",
+        "correct_answer": "C",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:00.991Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 10,
+    "fields": {
+        "quiz": 1,
+        "question": "Which SQL clause is used to sort records?",
+        "option1": "GROUP BY",
+        "option2": "ORDER BY",
+        "option3": "SORT BY",
+        "option4": "FILTER BY",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:00.993Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 11,
+    "fields": {
+        "quiz": 1,
+        "question": "Which join returns matching records from both tables?",
+        "option1": "LEFT JOIN",
+        "option2": "RIGHT JOIN",
+        "option3": "INNER JOIN",
+        "option4": "FULL JOIN",
+        "correct_answer": "C",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:00.994Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 12,
+    "fields": {
+        "quiz": 1,
+        "question": "Which SQL function counts the number of rows?",
+        "option1": "SUM()",
+        "option2": "COUNT()",
+        "option3": "AVG()",
+        "option4": "MAX()",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:00.997Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 13,
+    "fields": {
+        "quiz": 1,
+        "question": "Which SQL function returns the highest value?",
+        "option1": "MAX()",
+        "option2": "MIN()",
+        "option3": "AVG()",
+        "option4": "COUNT()",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:00.999Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 14,
+    "fields": {
+        "quiz": 1,
+        "question": "Which command is used to modify existing records?",
+        "option1": "ALTER",
+        "option2": "UPDATE",
+        "option3": "MODIFY",
+        "option4": "CHANGE",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:01.000Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 15,
+    "fields": {
+        "quiz": 1,
+        "question": "Which SQL command permanently removes records?",
+        "option1": "DELETE",
+        "option2": "DROP",
+        "option3": "REMOVE",
+        "option4": "TRUNCATE",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:01.002Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 16,
+    "fields": {
+        "quiz": 1,
+        "question": "What is the full form of ER Model?",
+        "option1": "Entity Relationship Model",
+        "option2": "Entity Record Model",
+        "option3": "External Relation Model",
+        "option4": "Extended Record Model",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:01.004Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 17,
+    "fields": {
+        "quiz": 1,
+        "question": "Which key creates a relationship between tables?",
+        "option1": "Primary Key",
+        "option2": "Candidate Key",
+        "option3": "Foreign Key",
+        "option4": "Unique Key",
+        "correct_answer": "C",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:01.006Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 18,
+    "fields": {
+        "quiz": 1,
+        "question": "Which SQL clause is used with aggregate functions?",
+        "option1": "HAVING",
+        "option2": "WHERE",
+        "option3": "ORDER BY",
+        "option4": "DISTINCT",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:01.007Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 19,
+    "fields": {
+        "quiz": 1,
+        "question": "ACID stands for?",
+        "option1": "Atomicity, Consistency, Isolation, Durability",
+        "option2": "Accuracy, Consistency, Integrity, Durability",
+        "option3": "Atomicity, Control, Isolation, Data",
+        "option4": "Access, Control, Integrity, Durability",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:01.009Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 20,
+    "fields": {
+        "quiz": 1,
+        "question": "Which SQL statement creates a new table?",
+        "option1": "CREATE TABLE",
+        "option2": "NEW TABLE",
+        "option3": "MAKE TABLE",
+        "option4": "ADD TABLE",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:01.011Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 21,
+    "fields": {
+        "quiz": 1,
+        "question": "Which command removes all rows but keeps the table structure?",
+        "option1": "DELETE",
+        "option2": "DROP",
+        "option3": "TRUNCATE",
+        "option4": "REMOVE",
+        "correct_answer": "C",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:01.013Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 22,
+    "fields": {
+        "quiz": 1,
+        "question": "Which normal form removes transitive dependency?",
+        "option1": "1NF",
+        "option2": "2NF",
+        "option3": "3NF",
+        "option4": "BCNF",
+        "correct_answer": "C",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:01.015Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 23,
+    "fields": {
+        "quiz": 1,
+        "question": "Which SQL operator is used for pattern matching?",
+        "option1": "LIKE",
+        "option2": "MATCH",
+        "option3": "FIND",
+        "option4": "SEARCH",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:01.017Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 24,
+    "fields": {
+        "quiz": 1,
+        "question": "Which SQL function returns the average value?",
+        "option1": "SUM()",
+        "option2": "AVG()",
+        "option3": "COUNT()",
+        "option4": "MAX()",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:01.018Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 25,
+    "fields": {
+        "quiz": 1,
+        "question": "Which database object stores data in rows and columns?",
+        "option1": "View",
+        "option2": "Table",
+        "option3": "Index",
+        "option4": "Schema",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T10:21:01.020Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 26,
+    "fields": {
+        "quiz": 2,
+        "question": "What is the main purpose of an operating system?",
+        "option1": "To build web pages",
+        "option2": "To manage computer resources",
+        "option3": "To write code",
+        "option4": "To compile programs",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.450Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 27,
+    "fields": {
+        "quiz": 2,
+        "question": "Which of the following is NOT an operating system?",
+        "option1": "Windows",
+        "option2": "Linux",
+        "option3": "Oracle",
+        "option4": "macOS",
+        "correct_answer": "C",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.453Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 28,
+    "fields": {
+        "quiz": 2,
+        "question": "What does CPU scheduling decide?",
+        "option1": "Memory allocation",
+        "option2": "Which process runs next",
+        "option3": "Disk storage size",
+        "option4": "Network bandwidth",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.454Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 29,
+    "fields": {
+        "quiz": 2,
+        "question": "Which scheduling algorithm allocates the CPU to the process that requests it first?",
+        "option1": "SJF",
+        "option2": "Round Robin",
+        "option3": "FCFS",
+        "option4": "Priority Scheduling",
+        "correct_answer": "C",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.455Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 30,
+    "fields": {
+        "quiz": 2,
+        "question": "What is a process in an operating system?",
+        "option1": "A program in execution",
+        "option2": "A program in secondary storage",
+        "option3": "A hardware component",
+        "option4": "An error in a program",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.457Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 31,
+    "fields": {
+        "quiz": 2,
+        "question": "What is a deadlock?",
+        "option1": "A process termination",
+        "option2": "Infinite loop in a program",
+        "option3": "Permanent blocking of processes",
+        "option4": "A system crash",
+        "correct_answer": "C",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.458Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 32,
+    "fields": {
+        "quiz": 2,
+        "question": "Which condition is NOT required for a deadlock to occur?",
+        "option1": "Mutual Exclusion",
+        "option2": "Hold and Wait",
+        "option3": "No Preemption",
+        "option4": "Process Preemption",
+        "correct_answer": "D",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.460Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 33,
+    "fields": {
+        "quiz": 2,
+        "question": "What is the purpose of Virtual Memory?",
+        "option1": "To speed up the CPU",
+        "option2": "To allow execution of larger programs",
+        "option3": "To eliminate RAM entirely",
+        "option4": "To backup files",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.462Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 34,
+    "fields": {
+        "quiz": 2,
+        "question": "What is page fault?",
+        "option1": "An error in a program code",
+        "option2": "Accessing an invalid URL",
+        "option3": "When a requested page is not in RAM",
+        "option4": "A hardware failure",
+        "correct_answer": "C",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.464Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 35,
+    "fields": {
+        "quiz": 2,
+        "question": "Which mechanism is used to avoid thrashing?",
+        "option1": "Paging",
+        "option2": "Working Set Model",
+        "option3": "Segmentation",
+        "option4": "Caching",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.466Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 36,
+    "fields": {
+        "quiz": 2,
+        "question": "What is a thread?",
+        "option1": "A heavy-weight process",
+        "option2": "A lightweight process",
+        "option3": "An execution file",
+        "option4": "A storage unit",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.468Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 37,
+    "fields": {
+        "quiz": 2,
+        "question": "What is a semaphore used for?",
+        "option1": "Process Synchronization",
+        "option2": "Memory Allocation",
+        "option3": "Disk Scheduling",
+        "option4": "Data Encryption",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.470Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 38,
+    "fields": {
+        "quiz": 2,
+        "question": "Which of the following is a classic synchronization problem?",
+        "option1": "Traveling Salesman",
+        "option2": "Dining Philosophers",
+        "option3": "Tower of Hanoi",
+        "option4": "Knapsack Problem",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.472Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 39,
+    "fields": {
+        "quiz": 2,
+        "question": "What does the Banker's Algorithm handle?",
+        "option1": "Deadlock Prevention",
+        "option2": "Deadlock Avoidance",
+        "option3": "Deadlock Detection",
+        "option4": "Deadlock Recovery",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.473Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 40,
+    "fields": {
+        "quiz": 2,
+        "question": "What is the section of code that accesses shared resources called?",
+        "option1": "Main Section",
+        "option2": "Private Section",
+        "option3": "Critical Section",
+        "option4": "Public Section",
+        "correct_answer": "C",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.474Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 41,
+    "fields": {
+        "quiz": 2,
+        "question": "What is the full form of PCB in OS?",
+        "option1": "Process Control Block",
+        "option2": "Program Control Board",
+        "option3": "Process Code Base",
+        "option4": "Port Control Block",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.476Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 42,
+    "fields": {
+        "quiz": 2,
+        "question": "Which disk scheduling algorithm is also known as the elevator algorithm?",
+        "option1": "FCFS",
+        "option2": "SSTF",
+        "option3": "SCAN",
+        "option4": "LOOK",
+        "correct_answer": "C",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.477Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 43,
+    "fields": {
+        "quiz": 2,
+        "question": "What is the primary function of the OS Kernel?",
+        "option1": "File Compression",
+        "option2": "Managing system resources and hardware",
+        "option3": "Designing UI",
+        "option4": "Running web browsers",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.479Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 44,
+    "fields": {
+        "quiz": 2,
+        "question": "What is fragmentation in memory management?",
+        "option1": "Breaking code into functions",
+        "option2": "Wasted memory space",
+        "option3": "Data encryption",
+        "option4": "Creating backups",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.480Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 45,
+    "fields": {
+        "quiz": 2,
+        "question": "Which command is used in Linux to list files in a directory?",
+        "option1": "cd",
+        "option2": "mkdir",
+        "option3": "ls",
+        "option4": "pwd",
+        "correct_answer": "C",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.481Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 46,
+    "fields": {
+        "quiz": 2,
+        "question": "What is a system call?",
+        "option1": "A network connection request",
+        "option2": "Interface between application and OS",
+        "option3": "A hardware interrupt",
+        "option4": "A crash report",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.483Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 47,
+    "fields": {
+        "quiz": 2,
+        "question": "What is the main advantage of a microkernel architecture?",
+        "option1": "Maximum performance speed",
+        "option2": "Small size and high reliability",
+        "option3": "Minimal memory footprint",
+        "option4": "Easy to code",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.484Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 48,
+    "fields": {
+        "quiz": 2,
+        "question": "Which directory structure is used in most modern operating systems?",
+        "option1": "Single-level Directory",
+        "option2": "Two-level Directory",
+        "option3": "Tree-structured Directory",
+        "option4": "Acyclic-graph Directory",
+        "correct_answer": "C",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.487Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 49,
+    "fields": {
+        "quiz": 2,
+        "question": "What does RAID stand for in storage systems?",
+        "option1": "Redundant Array of Independent Disks",
+        "option2": "Rapid Access of Inactive Disks",
+        "option3": "Real-time Allocation of Internal Disks",
+        "option4": "Reliable Array of Internet Devices",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.489Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 50,
+    "fields": {
+        "quiz": 2,
+        "question": "What is the main purpose of a device driver?",
+        "option1": "To clean the hardware",
+        "option2": "To bridge the OS and hardware devices",
+        "option3": "To browse the internet",
+        "option4": "To compile code",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-10T12:42:05.490Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 51,
+    "fields": {
+        "quiz": 3,
+        "question": "Which keyword creates object?",
+        "option1": "new",
+        "option2": "class",
+        "option3": "this",
+        "option4": "static",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-11T06:57:02.905Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 52,
+    "fields": {
+        "quiz": 3,
+        "question": "JVM stands for",
+        "option1": "Java Virtual Machine",
+        "option2": "Java Variable Method",
+        "option3": "Just Virtual Machine",
+        "option4": "nan",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-11T06:57:02.925Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 53,
+    "fields": {
+        "quiz": 3,
+        "question": "Primitive type?",
+        "option1": "String",
+        "option2": "int",
+        "option3": "Array",
+        "option4": "Object",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-11T06:57:02.927Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 54,
+    "fields": {
+        "quiz": 3,
+        "question": "Entry method?",
+        "option1": "start()",
+        "option2": "main()",
+        "option3": "run()",
+        "option4": "init()",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-11T06:57:02.928Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 55,
+    "fields": {
+        "quiz": 3,
+        "question": "Inheritance keyword",
+        "option1": "implements",
+        "option2": "extends",
+        "option3": "import",
+        "option4": "package",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-11T06:57:02.930Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 56,
+    "fields": {
+        "quiz": 3,
+        "question": "Package import wildcard",
+        "option1": "*",
+        "option2": ".",
+        "option3": "?",
+        "option4": "#",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-11T06:57:02.932Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 57,
+    "fields": {
+        "quiz": 3,
+        "question": "Default int size",
+        "option1": "16",
+        "option2": "32",
+        "option3": "64",
+        "option4": "8",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-11T06:57:02.934Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 58,
+    "fields": {
+        "quiz": 3,
+        "question": "Loop exits with",
+        "option1": "break",
+        "option2": "continue",
+        "option3": "return",
+        "option4": "exit",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-11T06:57:02.935Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 59,
+    "fields": {
+        "quiz": 3,
+        "question": "Exception superclass",
+        "option1": "Throwable",
+        "option2": "Error",
+        "option3": "Object",
+        "option4": "Exception",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-11T06:57:02.937Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 60,
+    "fields": {
+        "quiz": 3,
+        "question": "Interface methods are",
+        "option1": "private",
+        "option2": "public abstract",
+        "option3": "protected",
+        "option4": "final",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-11T06:57:02.938Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 61,
+    "fields": {
+        "quiz": 3,
+        "question": "String immutable?",
+        "option1": "Yes",
+        "option2": "No",
+        "option3": "Sometimes",
+        "option4": "nan",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-11T06:57:02.940Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 62,
+    "fields": {
+        "quiz": 3,
+        "question": "Array index starts",
+        "option1": "1",
+        "option2": "-1",
+        "option3": "0",
+        "option4": "2",
+        "correct_answer": "C",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-11T06:57:02.941Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 63,
+    "fields": {
+        "quiz": 3,
+        "question": "Compile command",
+        "option1": "javac",
+        "option2": "java",
+        "option3": "jdk",
+        "option4": "jre",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-11T06:57:02.943Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 64,
+    "fields": {
+        "quiz": 3,
+        "question": "Print line",
+        "option1": "System.out.print()",
+        "option2": "System.out.println()",
+        "option3": "echo",
+        "option4": "printf",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-11T06:57:02.944Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 65,
+    "fields": {
+        "quiz": 3,
+        "question": "Constructor name",
+        "option1": "Any",
+        "option2": "Same as class",
+        "option3": "init",
+        "option4": "create",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-11T06:57:02.945Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 66,
+    "fields": {
+        "quiz": 3,
+        "question": "Method overloading",
+        "option1": "Same name diff params",
+        "option2": "Diff names",
+        "option3": "Same params",
+        "option4": "nan",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-11T06:57:02.947Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 67,
+    "fields": {
+        "quiz": 3,
+        "question": "Boolean values",
+        "option1": "0/1",
+        "option2": "true/false",
+        "option3": "yes/no",
+        "option4": "on/off",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-11T06:57:02.949Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 68,
+    "fields": {
+        "quiz": 3,
+        "question": "Comment single line",
+        "option1": "/*",
+        "option2": "//",
+        "option3": "<!--",
+        "option4": "#",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-11T06:57:02.950Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 69,
+    "fields": {
+        "quiz": 3,
+        "question": "Collection interface",
+        "option1": "List",
+        "option2": "String",
+        "option3": "Thread",
+        "option4": "Math",
+        "correct_answer": "A",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-11T06:57:02.952Z"
+    }
+},
+{
+    "model": "quizapp.question",
+    "pk": 70,
+    "fields": {
+        "quiz": 3,
+        "question": "Final keyword",
+        "option1": "inherits",
+        "option2": "constant/prevent override",
+        "option3": "loop",
+        "option4": "package",
+        "correct_answer": "B",
+        "marks": 1,
+        "unit": 1,
+        "question_level": "Easy",
+        "created_date": "2026-07-11T06:57:02.953Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 1,
+    "fields": {
+        "user": 3,
+        "roll_no": "B24251",
+        "student_name": "KANIMOZHI  D",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": true,
+        "created_date": "2026-07-10T09:56:27.135Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 2,
+    "fields": {
+        "user": 4,
+        "roll_no": "B24252",
+        "student_name": "Kayalvizhi V",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": true,
+        "created_date": "2026-07-10T09:56:28.409Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 3,
+    "fields": {
+        "user": 5,
+        "roll_no": "B24253",
+        "student_name": "KIRANRAJ  P",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:29.379Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 4,
+    "fields": {
+        "user": 6,
+        "roll_no": "B24254",
+        "student_name": "KIRUTHIKA  C",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:30.301Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 5,
+    "fields": {
+        "user": 7,
+        "roll_no": "B24255",
+        "student_name": "MADHUMITHA   D",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:31.436Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 6,
+    "fields": {
+        "user": 8,
+        "roll_no": "B24256",
+        "student_name": "MANIKANDAN  J",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": true,
+        "created_date": "2026-07-10T09:56:31.894Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 7,
+    "fields": {
+        "user": 9,
+        "roll_no": "B24257",
+        "student_name": "MARY NISHA  P",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:33.388Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 8,
+    "fields": {
+        "user": 10,
+        "roll_no": "B24258",
+        "student_name": "MELBIN JULIYAT  A",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:33.728Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 9,
+    "fields": {
+        "user": 11,
+        "roll_no": "B24259",
+        "student_name": "MELVIN JOE  ANTONY  J",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": true,
+        "created_date": "2026-07-10T09:56:35.133Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 10,
+    "fields": {
+        "user": 12,
+        "roll_no": "B24260",
+        "student_name": "Mercilin Sugina S",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:35.336Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 11,
+    "fields": {
+        "user": 13,
+        "roll_no": "B24261",
+        "student_name": "MERLEEN MIRSHA  M",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:36.404Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 12,
+    "fields": {
+        "user": 14,
+        "roll_no": "B24262",
+        "student_name": "MOHAN  S",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:36.548Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 13,
+    "fields": {
+        "user": 15,
+        "roll_no": "B24263",
+        "student_name": "MUGILAN  P",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:37.565Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 14,
+    "fields": {
+        "user": 16,
+        "roll_no": "B24264",
+        "student_name": "MYTHILY   Y",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:37.710Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 15,
+    "fields": {
+        "user": 17,
+        "roll_no": "B24265",
+        "student_name": "Nishimarshalina A A",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:39.026Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 16,
+    "fields": {
+        "user": 18,
+        "roll_no": "B24266",
+        "student_name": "NITHISH  G",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:39.365Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 17,
+    "fields": {
+        "user": 19,
+        "roll_no": "B24267",
+        "student_name": "PAUL ABRAHAM  A",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:40.729Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 18,
+    "fields": {
+        "user": 20,
+        "roll_no": "B24268",
+        "student_name": "PRADEEP   S",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:41.193Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 19,
+    "fields": {
+        "user": 21,
+        "roll_no": "B24270",
+        "student_name": "PRINCY  R",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:42.856Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 20,
+    "fields": {
+        "user": 22,
+        "roll_no": "B24271",
+        "student_name": "RAKESH  A",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:43.133Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 21,
+    "fields": {
+        "user": 23,
+        "roll_no": "B24272",
+        "student_name": "RONALD FRANCO  P",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:44.026Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 22,
+    "fields": {
+        "user": 24,
+        "roll_no": "B24273",
+        "student_name": "RUBESH KUMAR    P",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:44.263Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 23,
+    "fields": {
+        "user": 25,
+        "roll_no": "B24274",
+        "student_name": "RUDHARAA   P M M",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:45.844Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 24,
+    "fields": {
+        "user": 26,
+        "roll_no": "B24275",
+        "student_name": "RUFINA SHARON  C",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:46.085Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 25,
+    "fields": {
+        "user": 27,
+        "roll_no": "B24276",
+        "student_name": "SALAM   P",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:47.554Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 26,
+    "fields": {
+        "user": 28,
+        "roll_no": "B24278",
+        "student_name": "Sandhiya K",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:47.789Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 27,
+    "fields": {
+        "user": 29,
+        "roll_no": "B24279",
+        "student_name": "Sandhiya P P",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:49.354Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 28,
+    "fields": {
+        "user": 30,
+        "roll_no": "B24280",
+        "student_name": "SARANYA  S",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:49.565Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 29,
+    "fields": {
+        "user": 31,
+        "roll_no": "B24281",
+        "student_name": "SATHISH  A",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:50.678Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 30,
+    "fields": {
+        "user": 32,
+        "roll_no": "B24282",
+        "student_name": "SHARAL JERWIN  S",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:50.783Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 31,
+    "fields": {
+        "user": 33,
+        "roll_no": "B24285",
+        "student_name": "Sibin Joshva V",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:51.889Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 32,
+    "fields": {
+        "user": 34,
+        "roll_no": "B24286",
+        "student_name": "SOFIYA  A",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:52.081Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 33,
+    "fields": {
+        "user": 35,
+        "roll_no": "B24287",
+        "student_name": "SUJANA VINNARASI   E",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:53.457Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 34,
+    "fields": {
+        "user": 36,
+        "roll_no": "B24288",
+        "student_name": "SUPREENA  C",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:53.666Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 35,
+    "fields": {
+        "user": 37,
+        "roll_no": "B24289",
+        "student_name": "SWEETY MARIA  C",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:55.525Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 36,
+    "fields": {
+        "user": 38,
+        "roll_no": "B24290",
+        "student_name": "TAMILARASI  D",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:55.536Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 37,
+    "fields": {
+        "user": 39,
+        "roll_no": "B24291",
+        "student_name": "TAMIL VENDAN  B",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:57.219Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 38,
+    "fields": {
+        "user": 40,
+        "roll_no": "B24292",
+        "student_name": "THULASINATHAN   S",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:57.389Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 39,
+    "fields": {
+        "user": 41,
+        "roll_no": "B24293",
+        "student_name": "UDAYA   S",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:58.370Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 40,
+    "fields": {
+        "user": 42,
+        "roll_no": "B24294",
+        "student_name": "VIKRAM  V",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:56:58.495Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 41,
+    "fields": {
+        "user": 43,
+        "roll_no": "B24295",
+        "student_name": "VINAY  P",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:57:00.011Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 42,
+    "fields": {
+        "user": 44,
+        "roll_no": "B24296",
+        "student_name": "YOGALAKSHMI R",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:57:00.277Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 43,
+    "fields": {
+        "user": 45,
+        "roll_no": "B24297",
+        "student_name": "YOGASRI  S",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:57:01.796Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 44,
+    "fields": {
+        "user": 46,
+        "roll_no": "B24298",
+        "student_name": "YUKESH  G",
+        "department": 1,
+        "batch_year": 3,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T09:57:02.027Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 45,
+    "fields": {
+        "user": 48,
+        "roll_no": "B25251",
+        "student_name": "MARSHAL ROCH J",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:02.699Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 46,
+    "fields": {
+        "user": 49,
+        "roll_no": "B25252",
+        "student_name": "MARY MAHESWARI  A",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:04.458Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 47,
+    "fields": {
+        "user": 50,
+        "roll_no": "B25253",
+        "student_name": "MARY MONIKA  S",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:06.102Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 48,
+    "fields": {
+        "user": 51,
+        "roll_no": "B25254",
+        "student_name": "MARY NISHA  S",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:07.561Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 49,
+    "fields": {
+        "user": 52,
+        "roll_no": "B25255",
+        "student_name": "MELVIN AKASH L",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:09.409Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 50,
+    "fields": {
+        "user": 53,
+        "roll_no": "B25256",
+        "student_name": "MELVINA D",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:10.849Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 51,
+    "fields": {
+        "user": 54,
+        "roll_no": "B25257",
+        "student_name": "MELWIN JOSHVA D",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:12.062Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 52,
+    "fields": {
+        "user": 55,
+        "roll_no": "B25258",
+        "student_name": "Moulidharan K",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:13.022Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 53,
+    "fields": {
+        "user": 56,
+        "roll_no": "B25259",
+        "student_name": "MYTHILI K",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:14.197Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 54,
+    "fields": {
+        "user": 57,
+        "roll_no": "B25260",
+        "student_name": "Myvizhiprabha  M",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:15.724Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 55,
+    "fields": {
+        "user": 58,
+        "roll_no": "B25261",
+        "student_name": "NANCY CREEDA   J",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:17.132Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 56,
+    "fields": {
+        "user": 59,
+        "roll_no": "B25262",
+        "student_name": "NANSIMARY A",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:18.294Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 57,
+    "fields": {
+        "user": 60,
+        "roll_no": "B25263",
+        "student_name": "NASI R",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:19.393Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 58,
+    "fields": {
+        "user": 61,
+        "roll_no": "B25264",
+        "student_name": "NAVEENA J",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:20.845Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 59,
+    "fields": {
+        "user": 62,
+        "roll_no": "B25265",
+        "student_name": "NAVINESWARI S",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:22.379Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 60,
+    "fields": {
+        "user": 63,
+        "roll_no": "B25266",
+        "student_name": "NISHALINI A",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:23.738Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 61,
+    "fields": {
+        "user": 64,
+        "roll_no": "B25267",
+        "student_name": "NITHISWARAN  V",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:25.141Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 62,
+    "fields": {
+        "user": 65,
+        "roll_no": "B25268",
+        "student_name": "PRAVEEN RAJ A",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:26.233Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 63,
+    "fields": {
+        "user": 66,
+        "roll_no": "B25269",
+        "student_name": "PRINCY JESIYA L",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:27.917Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 64,
+    "fields": {
+        "user": 67,
+        "roll_no": "B25270",
+        "student_name": "PRETHIKA REENA M",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:29.430Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 65,
+    "fields": {
+        "user": 68,
+        "roll_no": "B25272",
+        "student_name": "RESHMI  A",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:31.008Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 66,
+    "fields": {
+        "user": 69,
+        "roll_no": "B25273",
+        "student_name": "ROHITH T",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:32.245Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 67,
+    "fields": {
+        "user": 70,
+        "roll_no": "B25274",
+        "student_name": "RUFINA  JANET  V",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:33.639Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 68,
+    "fields": {
+        "user": 71,
+        "roll_no": "B25275",
+        "student_name": "SAKTHI  S",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:35.111Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 69,
+    "fields": {
+        "user": 72,
+        "roll_no": "B25276",
+        "student_name": "SANJAY  G",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:36.652Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 70,
+    "fields": {
+        "user": 73,
+        "roll_no": "B25277",
+        "student_name": "SANJAY SAGAR J",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": true,
+        "created_date": "2026-07-10T12:33:38.167Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 71,
+    "fields": {
+        "user": 74,
+        "roll_no": "B25278",
+        "student_name": "SELINA MARY A",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:39.932Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 72,
+    "fields": {
+        "user": 75,
+        "roll_no": "B25279",
+        "student_name": "SELVARAJ R",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:41.412Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 73,
+    "fields": {
+        "user": 76,
+        "roll_no": "B25280",
+        "student_name": "SHAM JEFFRIN  S",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:43.379Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 74,
+    "fields": {
+        "user": 77,
+        "roll_no": "B25281",
+        "student_name": "SHEEBA BENADICT MARY   K",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:44.827Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 75,
+    "fields": {
+        "user": 78,
+        "roll_no": "B25282",
+        "student_name": "SHERIN HILDA   L",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:45.916Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 76,
+    "fields": {
+        "user": 79,
+        "roll_no": "B25283",
+        "student_name": "SHIVNI A",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:47.242Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 77,
+    "fields": {
+        "user": 80,
+        "roll_no": "B25284",
+        "student_name": "SHURUTHI K S",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:48.885Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 78,
+    "fields": {
+        "user": 81,
+        "roll_no": "B25285",
+        "student_name": "SIBU M",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:50.512Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 79,
+    "fields": {
+        "user": 82,
+        "roll_no": "B25286",
+        "student_name": "SRIDHAR G",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:51.852Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 80,
+    "fields": {
+        "user": 83,
+        "roll_no": "B25287",
+        "student_name": "STENY A",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:52.845Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 81,
+    "fields": {
+        "user": 84,
+        "roll_no": "B25288",
+        "student_name": "SUGANTHIDEVI  G",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:54.000Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 82,
+    "fields": {
+        "user": 85,
+        "roll_no": "B25289",
+        "student_name": "SUJAN FRANCIS M",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:55.421Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 83,
+    "fields": {
+        "user": 86,
+        "roll_no": "B25290",
+        "student_name": "SURESH V",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:56.881Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 84,
+    "fields": {
+        "user": 87,
+        "roll_no": "B25291",
+        "student_name": "SYED ZUHAIR BASHA   S",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:58.175Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 85,
+    "fields": {
+        "user": 88,
+        "roll_no": "B25292",
+        "student_name": "TAYANA ANITA RANI  A",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:33:59.165Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 86,
+    "fields": {
+        "user": 89,
+        "roll_no": "B25293",
+        "student_name": "THARUN P",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:34:00.668Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 87,
+    "fields": {
+        "user": 90,
+        "roll_no": "B25294",
+        "student_name": "VIJAY  K",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:34:02.460Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 88,
+    "fields": {
+        "user": 91,
+        "roll_no": "B25295",
+        "student_name": "VINNARASI A",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:34:04.330Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 89,
+    "fields": {
+        "user": 92,
+        "roll_no": "B25296",
+        "student_name": "VINNARASU M",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:34:05.806Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 90,
+    "fields": {
+        "user": 93,
+        "roll_no": "B25297",
+        "student_name": "VISHAL M",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:34:06.991Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 91,
+    "fields": {
+        "user": 94,
+        "roll_no": "B25298",
+        "student_name": "YESUVAJENISHA D",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:34:08.519Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 92,
+    "fields": {
+        "user": 95,
+        "roll_no": "B25299",
+        "student_name": "YOGESH K",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:34:10.036Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 93,
+    "fields": {
+        "user": 96,
+        "roll_no": "B252A0",
+        "student_name": "SOWNDHARYA R",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:34:12.905Z"
+    }
+},
+{
+    "model": "quizapp.student",
+    "pk": 94,
+    "fields": {
+        "user": 97,
+        "roll_no": "B252A1",
+        "student_name": "MANISHA C",
+        "department": 1,
+        "batch_year": 2,
+        "section": "A",
+        "is_attempted": false,
+        "created_date": "2026-07-10T12:34:13.926Z"
+    }
+},
+{
+    "model": "quizapp.result",
+    "pk": 1,
+    "fields": {
+        "student": 1,
+        "quiz": 1,
+        "score": 0,
+        "percentage": 0.0,
+        "submitted_date": "2026-07-10T10:46:36.706Z"
+    }
+},
+{
+    "model": "quizapp.result",
+    "pk": 2,
+    "fields": {
+        "student": 2,
+        "quiz": 1,
+        "score": 8,
+        "percentage": 32.0,
+        "submitted_date": "2026-07-10T11:59:15.226Z"
+    }
+},
+{
+    "model": "quizapp.result",
+    "pk": 3,
+    "fields": {
+        "student": 9,
+        "quiz": 1,
+        "score": 17,
+        "percentage": 68.0,
+        "submitted_date": "2026-07-10T12:23:43.077Z"
+    }
+},
+{
+    "model": "quizapp.result",
+    "pk": 4,
+    "fields": {
+        "student": 70,
+        "quiz": 3,
+        "score": 5,
+        "percentage": 25.0,
+        "submitted_date": "2026-07-11T07:01:51.899Z"
+    }
+},
+{
+    "model": "quizapp.result",
+    "pk": 5,
+    "fields": {
+        "student": 6,
+        "quiz": 1,
+        "score": 12,
+        "percentage": 48.0,
+        "submitted_date": "2026-07-13T10:57:55.210Z"
+    }
+},
+{
+    "model": "quizapp.activityreport",
+    "pk": 1,
+    "fields": {
+        "quiz": 2,
+        "objective": "",
+        "summary": "",
+        "outcome": "",
+        "ai_report": "**Quiz Activity Report: Data Structure And Algorithm**\n\n**College Department:** BCA\n**Quiz Title:** Data Structure And Algorithm\n**Subject Code:** 23UCA31\n**Subject Name:** Data Structure And Algorithm\n**Year:** 2\n**Section:** B\n**Faculty Coordinator:** Jayashree\n\n**1. Objective:**\nThe objective of this quiz activity was to assess the understanding and application of data structures and algorithms among the students of the BCA department.\n\n**2. Introduction:**\nAs part of our ongoing efforts to enhance student learning and assessment, a quiz activity on Data Structure And Algorithm was conducted for the second-year students of the BCA department. The quiz aimed to evaluate the students' knowledge and skills in understanding and applying various data structures (e.g., arrays, linked lists, stacks, queues) and algorithms (e.g., sorting, searching). This report summarizes the key outcomes and performance metrics of the quiz activity.\n\n**3. Quiz Conduct:**\n\n* Date: [Insert Date]\n* Time: [Insert Time]\n* Duration: [Insert Duration]\n* The quiz was conducted online, with students accessing the quiz platform via their institutional email IDs.\n* A total of [Insert Number] questions were asked, consisting of multiple-choice and short-answer questions.\n\n**4. Student Participation:**\n\n* Unfortunately, no students participated in the quiz activity due to unforeseen circumstances.\n\n**5. Performance Analysis:**\nSince no students participated, there is no data available for performance analysis.\n\n**6. Learning Outcome:**\nThe quiz activity aimed to assess the learning outcomes of the Data Structure And Algorithm subject, specifically:\n\n* Understanding and application of various data structures\n* Knowledge of algorithms and their applications\n\nThe absence of student participation means that the learning outcomes could not be fully assessed in this instance.\n\n**7. Conclusion:**\nDue to the unique circumstances surrounding the quiz activity (i.e., no students participated), it is not possible to draw any meaningful conclusions about the effectiveness of the quiz or the overall learning outcome. The faculty coordinator will review and analyze the results once student participation resumes, with a view to making necessary adjustments to the assessment strategy.\n\n**Recommendations:**\n\n* Review and refine the assessment strategy to ensure inclusivity and engagement of all students.\n* Plan alternative assessments for future quizzes that accommodate varying learning styles and abilities.\n\nPlease note that this report may require revision based on further review and feedback.",
+        "photo1": "",
+        "photo2": "",
+        "generated_date": "2026-07-13T06:23:28.588Z"
+    }
+},
+{
+    "model": "quizapp.activityreport",
+    "pk": 2,
+    "fields": {
+        "quiz": 1,
+        "objective": "",
+        "summary": "",
+        "outcome": "",
+        "ai_report": "Don Bosco College (Co-ed) BCA Department\n\nDataBase Mangement System Subject Code: 23UCA51\n\nObjective:\nThe objective of this quiz activity was to evaluate the understanding and application of DataBase Management Systems among the students of Don Bosco College (Co-ed), BCA department.\n\nIntroduction:\nThe quiz activity was conducted on Database Management System, a crucial subject in the curriculum of BCA. The activity aimed at assessing the students' knowledge and skills acquired during the course. As per the rules of Don Bosco College, all students are required to participate in the quiz activity, which is mandatory for their assessment.\n\nQuiz Conduct:\nThe quiz was conducted on [Date] at 10:00 AM in the college auditorium. The quiz was divided into two parts: Multiple Choice Questions (MCQs) and Short Answer Questions (SAQs). Each part had a different set of questions designed to test the students' understanding of various concepts related to DataBase Management Systems.\n\nStudent Participation:\nA total of 4 students participated in the quiz activity, while -4 students were absent. The attendance percentage was 0.00%, indicating that no student attended the quiz. It is essential for students to participate in such activities to gain a deeper understanding of the subject matter and develop their problem-solving skills.\n\nPerformance Analysis:\nThe performance analysis of the participants showed a wide range of scores, from 0 to 17 marks out of 20. The highest score obtained was 17 by B24259 - MELVIN JOE ANTONY J, while the lowest score was 0 by B24251 - KANIMOZHI.\n\nLearning Outcome:\nThe quiz activity aimed at achieving the following learning outcomes:\n\n* Students would be able to explain the concepts of DataBase Management Systems.\n* Students would be able to identify different types of databases and their applications.\n* Students would be able to apply the concepts learned in class to real-world scenarios.\n\nConclusion:\nIn conclusion, the quiz activity was successful in assessing the understanding and application of DataBase Management Systems among the students. However, it is disheartening to note that none of the students participated in the activity due to absence.\n\nRecommendations:\nBased on the results of the quiz activity, the following recommendations are made:\n\n* The faculty can revise the course material to make it more engaging and relevant to real-world applications.\n* Additional practice sessions or quizzes can be conducted to reinforce the learning outcomes.\n* A plan should be implemented to encourage student participation in such activities to develop their problem-solving skills and critical thinking abilities.",
+        "photo1": "",
+        "photo2": "",
+        "generated_date": "2026-07-13T06:53:39.353Z"
+    }
+},
+{
+    "model": "quizapp.activityphoto",
+    "pk": 1,
+    "fields": {
+        "quiz": 3,
+        "title": "Sample",
+        "photo": "activity_photos/bconlef.jpg",
+        "latitude": "",
+        "longitude": "",
+        "address": "",
+        "uploaded_date": "2026-07-11T07:05:28.204Z"
+    }
+},
+{
+    "model": "quizapp.activityphoto",
+    "pk": 2,
+    "fields": {
+        "quiz": 2,
+        "title": "Pic1",
+        "photo": "activity_photos/WhatsApp_Image_2026-06-18_at_3.16.40_PM.jpeg",
+        "latitude": "12.585670211538464",
+        "longitude": "78.63264165384616",
+        "address": "",
+        "uploaded_date": "2026-07-13T06:21:13.144Z"
+    }
+},
+{
+    "model": "quizapp.activityphoto",
+    "pk": 3,
+    "fields": {
+        "quiz": 1,
+        "title": "DBMS",
+        "photo": "activity_photos/WhatsApp_Image_2026-06-18_at_3_Lx6xfGc.16.40_PM.jpeg",
+        "latitude": "12.585682356989823",
+        "longitude": "78.63259502930353",
+        "address": "",
+        "uploaded_date": "2026-07-13T06:50:39.582Z"
+    }
+},
+{
+    "model": "quizapp.questionbank",
+    "pk": 1,
+    "fields": {
+        "quiz": 1,
+        "uploaded_by": 1,
+        "file": "question_bank/DBMS_MCQ_25_Questions_rkFqtAO.xlsx",
+        "file_type": "excel",
+        "total_questions": 25,
+        "uploaded_date": "2026-07-10T10:11:58.668Z",
+        "status": "Uploaded",
+        "remarks": null
+    }
+},
+{
+    "model": "quizapp.questionbank",
+    "pk": 2,
+    "fields": {
+        "quiz": 1,
+        "uploaded_by": 1,
+        "file": "question_bank/DBMS_MCQ_25_Questions_SJeAgJS.xlsx",
+        "file_type": "excel",
+        "total_questions": 25,
+        "uploaded_date": "2026-07-10T10:21:00.166Z",
+        "status": "Uploaded",
+        "remarks": null
+    }
+},
+{
+    "model": "quizapp.questionbank",
+    "pk": 3,
+    "fields": {
+        "quiz": 2,
+        "uploaded_by": 2,
+        "file": "question_bank/Operating_System_MCQ_Question_Bank_aKjFE40.xlsx",
+        "file_type": "excel",
+        "total_questions": 25,
+        "uploaded_date": "2026-07-10T12:42:05.429Z",
+        "status": "Uploaded",
+        "remarks": null
+    }
+},
+{
+    "model": "quizapp.questionbank",
+    "pk": 4,
+    "fields": {
+        "quiz": 3,
+        "uploaded_by": 3,
+        "file": "question_bank/Java_20_MCQ_Questions.xlsx",
+        "file_type": "excel",
+        "total_questions": 20,
+        "uploaded_date": "2026-07-11T06:55:35.055Z",
+        "status": "Uploaded",
+        "remarks": null
+    }
+},
+{
+    "model": "quizapp.questionbank",
+    "pk": 5,
+    "fields": {
+        "quiz": 3,
+        "uploaded_by": 3,
+        "file": "question_bank/Java_20_MCQ_Questions_HwwC9pL.xlsx",
+        "file_type": "excel",
+        "total_questions": 20,
+        "uploaded_date": "2026-07-11T06:55:53.309Z",
+        "status": "Uploaded",
+        "remarks": null
+    }
+},
+{
+    "model": "quizapp.questionbank",
+    "pk": 6,
+    "fields": {
+        "quiz": 3,
+        "uploaded_by": 3,
+        "file": "question_bank/Java_20_MCQ_Questions_oFroNXc.xlsx",
+        "file_type": "excel",
+        "total_questions": 20,
+        "uploaded_date": "2026-07-11T06:57:02.887Z",
+        "status": "Uploaded",
+        "remarks": null
+    }
+},
+{
+    "model": "quizapp.studentexcel",
+    "pk": 1,
+    "fields": {
+        "file": "student_excel/3cab-list_U4OdJc5.xlsx",
+        "uploaded_by": 1,
+        "uploaded_date": "2026-07-10T09:48:35.548Z",
+        "status": "Uploaded"
+    }
+},
+{
+    "model": "quizapp.studentexcel",
+    "pk": 2,
+    "fields": {
+        "file": "student_excel/3cab-list_hacEujb.xlsx",
+        "uploaded_by": 1,
+        "uploaded_date": "2026-07-10T09:56:24.777Z",
+        "status": "Uploaded"
+    }
+},
+{
+    "model": "quizapp.studentexcel",
+    "pk": 3,
+    "fields": {
+        "file": "student_excel/3cab-list_OfVObnT.xlsx",
+        "uploaded_by": 1,
+        "uploaded_date": "2026-07-10T09:56:31.813Z",
+        "status": "Uploaded"
+    }
+},
+{
+    "model": "quizapp.studentexcel",
+    "pk": 4,
+    "fields": {
+        "file": "student_excel/2cablist.xlsx",
+        "uploaded_by": 2,
+        "uploaded_date": "2026-07-10T12:32:59.975Z",
+        "status": "Uploaded"
+    }
+},
+{
+    "model": "quizapp.attendance",
+    "pk": 1,
+    "fields": {
+        "student": 1,
+        "quiz": 1,
+        "login_time": "2026-07-10T10:45:33.897Z",
+        "logout_time": "2026-07-10T10:46:36.713Z",
+        "completed": true
+    }
+},
+{
+    "model": "quizapp.attendance",
+    "pk": 2,
+    "fields": {
+        "student": 2,
+        "quiz": 1,
+        "login_time": "2026-07-10T11:57:56.399Z",
+        "logout_time": "2026-07-10T11:59:15.230Z",
+        "completed": true
+    }
+},
+{
+    "model": "quizapp.attendance",
+    "pk": 3,
+    "fields": {
+        "student": 9,
+        "quiz": 1,
+        "login_time": "2026-07-10T12:19:40.165Z",
+        "logout_time": "2026-07-10T12:23:43.082Z",
+        "completed": true
+    }
+},
+{
+    "model": "quizapp.attendance",
+    "pk": 4,
+    "fields": {
+        "student": 70,
+        "quiz": 3,
+        "login_time": "2026-07-11T07:00:31.448Z",
+        "logout_time": "2026-07-11T07:01:51.905Z",
+        "completed": true
+    }
+},
+{
+    "model": "quizapp.attendance",
+    "pk": 5,
+    "fields": {
+        "student": 6,
+        "quiz": 1,
+        "login_time": "2026-07-13T10:56:21.553Z",
+        "logout_time": "2026-07-13T10:57:55.215Z",
+        "completed": true
+    }
+}
+]
